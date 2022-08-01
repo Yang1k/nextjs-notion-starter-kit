@@ -70,10 +70,10 @@
   cursor: pointer;
   font-size: 2em;
   display: inline-flex;
-  padding: 0.25em;
+  /* padding: 0.25em; */
   margin-right: 1vw;
   transition: color 250ms ease-out;
-  padding-right: 4.5em;
+  /* padding-right: 4.5em; */
 }
 
 .settings a:last-of-type,
