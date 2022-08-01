@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: 'f9076d486c9141d2810400b957367e89',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Yang1k',
+  domain: 'yang1k.vercel.app',
+  author: 'Yang1k',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '123...',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -49,16 +49,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Archive',
+      pageId: '7a5d86e62956494dbfacc395bbd05159'
+    },
+    {
+      title: 'Me',
+      pageId: '393d9fb8da5b43d1af441041eb1dfff7'
+    }
+  ]
 })
