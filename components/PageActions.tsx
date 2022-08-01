@@ -10,7 +10,7 @@ import styles from './styles.module.css'
 export const PageActions: React.FC<{ tweet: string }> = ({ tweet }) => {
   return (
     <div className={styles.pageActions}>
-      <a
+      {/* <a
         className={styles.likeTweet}
         href={`https://twitter.com/intent/like?tweet_id=${tweet}`}
         target='_blank'
@@ -18,9 +18,9 @@ export const PageActions: React.FC<{ tweet: string }> = ({ tweet }) => {
         title='Like this post on Twitter'
       >
         <IoHeartOutline />
-      </a>
+      </a> */}
 
-      <a
+      {/* <a
         className={styles.retweet}
         href={`https://twitter.com/intent/retweet?tweet_id=${tweet}`}
         target='_blank'
@@ -28,7 +28,7 @@ export const PageActions: React.FC<{ tweet: string }> = ({ tweet }) => {
         title='Retweet this post on Twitter'
       >
         <AiOutlineRetweet />
-      </a>
+      </a> */}
     </div>
   )
 }
