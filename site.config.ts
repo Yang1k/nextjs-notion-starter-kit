@@ -57,6 +57,10 @@ export default siteConfig({
       pageId: '7a5d86e62956494dbfacc395bbd05159'
     },
     {
+      title: 'Links',
+      pageId: 'd50f3787d48e427da78e813dd5f5b21f'
+    },
+    {
       title: 'Me',
       pageId: '393d9fb8da5b43d1af441041eb1dfff7'
     }
